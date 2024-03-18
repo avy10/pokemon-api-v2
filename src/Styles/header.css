@@ -73,7 +73,7 @@
   width: 100%;
   height: 100%;
 
-  font-size: 2rem;
+  font-size: 1.75rem;
 }
 
 .content2{
@@ -134,3 +134,57 @@
 }
 
 
+.types{
+  color: white;
+  position: fixed;
+  top: 6vh;
+  left: 19vw;
+  display: flex;
+  align-items : center;
+  justify-content: center;
+  
+}
+
+.types ul{
+  display: flex;
+  width: 57vw;
+  overflow: scroll;
+  margin-block-start: 1em;
+  padding-inline-start: 25px;
+}
+.types li{
+  margin: 10px;
+  
+  list-style-type : none;
+  border: 2px solid aqua;
+  padding: 5px;
+}
+
+.types li:first-child{
+  margin-left : 0px;
+}
+
+
+.nav::-webkit-scrollbar {
+    width: 0px;
+}
+.nav::-webkit-scrollbar-track {
+    background: transparent;
+}
+.nav::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 5px;
+}
+.nav:hover::-webkit-scrollbar-thumb {
+    background-color: transparent;
+    border: 1px solid transparent;
+}
+
+.types button{
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  color: white;
+}
